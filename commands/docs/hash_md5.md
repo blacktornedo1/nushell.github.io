@@ -40,7 +40,7 @@ feature: default
 Return the md5 hash of a string, hex-encoded
 ```nu
 > 'abcdefghijklmnopqrstuvwxyz' | hash md5
-c3fcd3d76192e4007dfb496cca67e13b
+$2a$10$wY1d8jNZ.u1uZ3cIlJMxceBx3ps9.JzK.xsEcPYcgPPgHWbfGVBBW
 ```
 
 Return the md5 hash of a string, as binary
